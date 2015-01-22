@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+	width:100%;
+	height:64px;
+	background-color:white;
+	line-height: 64px;
+	vertical-align: center;
+}
+
+.navbar ul, .navbar li{
+	display:inline;
+	margin-left:10px;
+}
+
+.navpart{
+	min-width:20%;
+	padding-left:8px;
+	padding-right: 8px;
+	padding-top:8px;
+	padding-bottom:8px;
+	display:inline-block;
+	height:100%;
+	top:0;
+	line-height: 64px;
+	vertical-align: middle;
+	position:relative;
+}
+
+.navbar img{
+	height:48px;
+}
+
+.navbtn{
+	color:black;
+	font-size: 18px;
+	text-decoration: none;
+	transition:.3s;
+}
+
+.navbtn:hover{
+	cursor:hand;
+	border-bottom-color: #52b2f2;
+	border-bottom-style: solid;
+	border-width: 4px;
+	padding-bottom:5px;
+}
+
+.bannerholder{
+	width:100%;
+	height:600px;
+	display:table;
+	background-position: center;
+	background-size: cover;
+}
+
+.banner{
+	display:table-cell;
+	color:white;
+	vertical-align: middle;
+}
+
+.personholder{
+	width:25%;
+	height:420px;
+	padding-top:16px;
+	padding-bottom:16px;
+	background-color:white;
+	display:inline-block;
+	color:black;
+	vertical-align: middle;
+}
+
+.personimg{
+	width:60%;
+	height:200px;
+	background-color:blue;
+	margin:auto;
+	background-size:cover;
+	background-position: center;
+}
+
+.text{
+	width:70%;
+	color:black;
+	margin:auto;
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+.slice{
+	display:inline-block;
+	width:30%;
+	height:230px;
+	border-bottom-style: solid;
+	border-width: 4px;
+	padding-bottom:5px;
+	padding-top:10px;
+	border-bottom-color: #52b2f2;
+	vertical-align: middle;
+	text-align: left;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+@media screen and (max-width: 700px) {
+    
+	.navpart{
+		display:block;
+	}
+
+	.personholder{
+		display:block;
+		margin-top:10px;
+		margin-left:auto;
+		margin-right:auto;
+		width:100%;
+	}
+
+
+}
